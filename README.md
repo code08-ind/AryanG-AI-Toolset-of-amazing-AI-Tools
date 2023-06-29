@@ -1,6 +1,6 @@
 # AryanG AI | Toolset of amazing AI Tools
 
-Experience the power of AryanG AI: A dynamic web application offering seamless conversations with chatbots, stunning image generation and variation, and effortless SQL query creation. Unleash the possibilities of AI at your fingertips...
+Experience the power of AryanG AI: A dynamic web application offering seamless conversations with chatbots, stunning image generation, and variation, and effortless SQL query creation. Unleash the possibilities of AI at your fingertips...
 
 ## Features
 
@@ -33,4 +33,4 @@ Experience the power of AryanG AI: A dynamic web application offering seamless c
 
 ![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss8.png)
 
-
+![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss9.png)
