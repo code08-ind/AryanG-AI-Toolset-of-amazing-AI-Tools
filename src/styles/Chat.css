@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.app {
+  color: #fff;
+  background-color: #343541;
+  overflow-x: hidden;
+  display: flex;
+}
+
+.side-bar {
+  background-color: #202123;
+  height: 100vh;
+  color: #fff;
+  width: 244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  border: solid 0.5px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  color: #fff;
+  text-align: left;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav {
+  border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+}
+
+ul.history {
+  padding: 10px;
+  margin: 10px;
+}
+
+ul.history li {
+  list-style-type: none;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.main {
+  height: 100vh;
+  width: 90%;
+  overflow-x: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.main h1 {
+  margin: 25px 0;
+  font-size: 1.8rem;
+}
+
+.main .container {
+  width: 93%;
+  margin-top: -23px;
+  height: 100%;
+}
+
+.main .container .row,
+.main .container .row1 {
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main .container .row div {
+  width: 30%;
+  height: 80px;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .container .row1 div {
+  width: 30%;
+  padding: 3px;
+  margin: 0 10px;
+  border-radius: 8px;
+  background-color: #3e3f4b;
+  height: 75px;
+  font-size: 0.98rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  padding: 10px;
+}
+
+.bottom-section {
+  width: 90%;
+  margin-top: 20px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 850px;
+}
+
+.input-container #submit {
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: grey !important;
+  margin-bottom: -4px;
+}
+
+input {
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 12px 15px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 54px 55px,
+    rgba(0, 0, 0, 0.05) 0px -12px 30px, rgba(0, 0, 0, 0.05) 0px 4px 6px,
+    rgba(0, 0, 0, 0.05) 0px 12px 3px, rgba(0, 0, 0, 0.05) 0px -3px 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#submit {
+  position: absolute;
+  bottom: 15px;
+  color: #fff;
+  right: 0;
+  cursor: pointer;
+}
+
+.feed {
+  width: 100%;
+  padding: 0;
+  color: #fff;
+}
+
+.feed li {
+  display: flex;
+  background-color: #444654;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.feed li#val {
+  background-color: #343541;
+}
+
+.feed p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  text-align: left;
+}
+
+.feed p.role {
+  min-width: 100px;
+}
