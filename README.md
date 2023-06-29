@@ -27,8 +27,6 @@ Experience the power of AryanG AI: A dynamic web application offering seamless c
 
 ![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss4.png)
 
-![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss5.png)
-
 ![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss6.png)
 
 ![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss7.png)
