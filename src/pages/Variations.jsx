@@ -48,7 +48,8 @@ const Variations = () => {
             const options = {
                 method: 'POST',
             };
-            const response = await fetch('http://localhost:8000/variations', options);
+            // const response = await fetch('http://localhost:8000/variations', options);
+            const response = await fetch('https://aryang-ai.onrender.com/variations', options);
             setModalOpen(false);
             const data = await response.json();
             setIsLoading(false);

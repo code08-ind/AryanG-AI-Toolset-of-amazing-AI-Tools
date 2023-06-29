@@ -19,8 +19,18 @@ Experience the power of AryanG AI: A dynamic web application offering seamless c
 
 ## Project Images
 
-![image](https://user-images.githubusercontent.com/68494604/126895421-9b8b9b7b-2b7b-4b0a-8b9a-2b2b0b2b0b2b.png)
+![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss1.png)
 
-![image](https://user-images.githubusercontent.com/68494604/126895427-3b3b3b3b-3b3b-3b3b-3b3b-3b3b3b3b3b3b.png)
+![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss2.png)
 
-![image](https://user-images.githubusercontent.com/68494604/126895430-3b3b3b3b-3b3b-3b3b-3b3b-3b3b3b3b3b3b.png)
+![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss3.png)
+
+![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss4.png)
+
+![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss6.png)
+
+![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss7.png)
+
+![image](https://raw.githubusercontent.com/code08-ind/pic_github/master/ss8.png)
+
+

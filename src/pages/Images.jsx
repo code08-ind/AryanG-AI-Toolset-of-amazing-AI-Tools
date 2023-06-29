@@ -44,12 +44,12 @@ const Images = () => {
             }
         };
         try {
-            const response = await fetch("http://localhost:8000/generations", options);
+            // const response = await fetch("http://localhost:8000/generations", options);
+            const response = await fetch("https://aryang-ai.onrender.com/generations", options);
             const data = await response.json();
             let imagesGenerated = [];
             imagesGenerated = [...imagesGenerated, data.data];
-            setImages(imagesGenerated);
-            /*  setImages(data.data); */
+            setImages(data.data);
             setIsLoading(false);
         } catch (error) {
             console.log(error);
@@ -62,7 +62,7 @@ const Images = () => {
         setValue(randomPrompt);
     }
 
-    if (isLoading && !images) {
+    if (isLoading) {
         return (
             <>
                 <nav className="navbar navbar-expand-lg navbar-light" style={{ borderBottom: "1px solid #E8E8E8" }}>

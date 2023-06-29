@@ -29,6 +29,10 @@ const upload = multer({ storage: storage }).single('file');
 
 let filePath;
 
+app.get('/', (req, res) => {
+    res.send("Hello Everyone, Welcome to AryanG AI | Toolset of amazing AI Tools");
+});
+
 app.post('/completions', async (req, res) => {
     const options = {
         method: 'POST',

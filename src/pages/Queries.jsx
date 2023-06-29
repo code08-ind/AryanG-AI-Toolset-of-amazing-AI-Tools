@@ -22,7 +22,8 @@ const Queries = () => {
             })
         };
         try {
-            const response = await fetch('http://localhost:8000/query', options);
+            // const response = await fetch('http://localhost:8000/query', options);
+            const response = await fetch('https://aryang-ai.onrender.com/query', options);
             const data = await response.json();
             const userMessage = {
                 role: "user",
